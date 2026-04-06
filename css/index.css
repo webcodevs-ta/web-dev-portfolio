@@ -1,0 +1,41 @@
+
+/* google fonts */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    max-width: 1170px;
+    margin: auto;
+}
+/* shared color style */
+.text-primary{
+    color: #FD6E0A;
+}
+/* nav styles  */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 5px;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-ul li{
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color:black;
+}
